@@ -1770,7 +1770,7 @@ body{
     margin-top: -40px;
     transition: 0.5s;
 }
-.slider3:hover .title h1{
+.slider3 .title h1{
     animation: title 2s forwards;
 }
 @keyframes title{
@@ -1789,7 +1789,7 @@ body{
     opacity: 0;
     transition: 1s;
 }
-.slider3:hover .content p{
+.slider3 .content p{
     animation: bodyContent 2s 1s forwards;
 }
 @keyframes bodyContent{
@@ -1812,7 +1812,7 @@ body{
     padding: 20px 0px 0px 20px;
     margin-top: -50px;
 }
-.slider3:hover .content h3{
+.slider3 .content h3{
     animation: fixedContent 2s 2s forwards;
 }
 @keyframes fixedContent{
