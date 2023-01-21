@@ -1397,7 +1397,8 @@ body{
 }
 .rhombus-img img{
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
+    margin-top: -45px;
     object-fit: cover;
     transition: 0.5s;
 }
